@@ -5,7 +5,7 @@ float tutar, kdv;
 Scanner scanner = new Scanner(System.in);
 
 System.out.println("Tutar giriniz: ");
-tutar = scanner.nextInt();
+tutar = scanner.nextFloat();
 
 if(tutar => 0 && tutar <= 1000)
 {
